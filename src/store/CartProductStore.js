@@ -46,4 +46,4 @@ export const useCartProductsStore = create(
       storage: createJSONStorage(() => sessionStorage), // (optional) by default, 'localStorage' is used
     }
   )
-);
+);
